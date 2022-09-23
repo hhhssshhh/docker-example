@@ -37,3 +37,7 @@ $ docker version
 ~~~
 $ docker run -p 4567:80 -d nginx:latest
 ~~~
+5. 인터넷 주소창에 아래 주소를 입력
+~~~
+http://localhost:4567/
+~~~
