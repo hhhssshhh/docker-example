@@ -23,3 +23,17 @@
     ![Download Image](./image/download_board.png)
 3. **윈도우 운영체제만**<br/>
     ![Enable WSL](./image/enable_wsl_while_install.png)
+
+## Launch Docker Desktop
+1. Skip tutorial 버튼을 눌러 튜토리얼 스킵<br/>
+    ![Skip tutorial](./image/skip_tutorial.png)
+2. 다음과 같은 화면에서 실습을 준비
+    ![Docker Desktop](./image/docker_desktop.png)
+3. 아래의 명령어 입력
+~~~
+$ docker version
+~~~
+4. 아래의 명령어 입력
+~~~
+$ docker run -p 4567:80 -d nginx:latest
+~~~
