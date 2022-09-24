@@ -14,6 +14,10 @@
 3. 재부팅
 4. [WSL2 커널 업데이트 패키지](https://wslstorestorage.blob.core.windows.net/wslblob/wsl_update_x64.msi)를 다운로드 받아 설치 
 5. 재부팅
+6. 아래 명령어 실행
+~~~
+wsl --set-default-version 2
+~~~
    
 
 ## Install Docker Desktop
