@@ -5,5 +5,5 @@ COPY . /usr/src/app
 
 WORKDIR /usr/src/app
 
-EXPOSE 5000
+EXPOSE 4996
 ENTRYPOINT ["python", "app.py"]
